@@ -1,3 +1,5 @@
+#STUDENT MANAGEMENT SYSTEM PROJECT BY MST.ESAT JAHAN AKHI
+
 #include <iostream>
 #include <string>
 
