@@ -83,6 +83,10 @@ public:
     }
 
     void displayAllStudents() {
+          if (currentSize == 0) {
+            cout << "No students found." << endl;
+            return;
+        }
         cout << "Details of all students:" << endl;
         for (int i = 0; i < currentSize; ++i) {
             cout << "Student " << i + 1 << ":" << endl;
